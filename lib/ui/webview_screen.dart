@@ -12,8 +12,9 @@ class ReptileWebView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: WebView(
-          initialUrl: url,
+        child: WebViewWidget(
+            controller: WebViewController()
+              ..loadRequest(Uri.parse(url))
         ),
       ),
     );

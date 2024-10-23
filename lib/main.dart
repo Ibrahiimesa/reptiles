@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Reptile',
       theme: ThemeData(
         colorScheme: const ColorScheme.light().copyWith(
-          background: const Color(0xFFFDFDF6),
+          surface: const Color(0xFFFDFDF6),
         ),
         useMaterial3: true,
       ),

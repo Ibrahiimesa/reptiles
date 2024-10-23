@@ -50,6 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       Icons.search,
                       color: Colors.blueGrey,
                     ),
+                    contentPadding: EdgeInsets.symmetric(vertical: 12),
                     enabledBorder: InputBorder.none,
                     focusedBorder: InputBorder.none,
                   ))
